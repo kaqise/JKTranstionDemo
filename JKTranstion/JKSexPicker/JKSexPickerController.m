@@ -50,7 +50,7 @@
 
 - (void)sureAction:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:^{
-        !self.confirm ?: self.confirm(sex);
+        !self.confirm ?: self.confirm(self->sex);
     }];
 }
 

@@ -61,9 +61,9 @@
 
 - (void)sureAction:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:^{
-        JKProvince *provoice = self.manager.provinces[row_province];
-        JKCity *city = provoice.cities[row_city];
-        !self.conform ?: self.conform(provoice.name, city.name , city.districts[row_district]);
+        JKProvince *provoice = self.manager.provinces[self->row_province];
+        JKCity *city = provoice.cities[self->row_city];
+        !self.conform ?: self.conform(provoice.name, city.name , city.districts[self->row_district]);
     }];
 }
 
@@ -153,5 +153,6 @@
     pickerLabel.text=[self pickerView:pickerView titleForRow:row forComponent:component];
     return pickerLabel;
 }
+
 
 @end

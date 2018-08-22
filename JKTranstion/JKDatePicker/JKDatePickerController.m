@@ -64,7 +64,7 @@ static NSInteger later = 50;
 }
 - (void)sureAction:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:^{
-        !self.confirm ?: self.confirm(pichDate);
+        !self.confirm ?: self.confirm(self->pichDate);
     }];
 }
 #pragma mark - UIPickViewDataSource

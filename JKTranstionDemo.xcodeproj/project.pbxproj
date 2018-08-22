@@ -181,8 +181,8 @@
 		5C013224212D0817007EE719 /* Transtion */ = {
 			isa = PBXGroup;
 			children = (
-				5C013225212D0817007EE719 /* JKPresentTranstion.m */,
 				5C013226212D0817007EE719 /* JKPresentTranstion.h */,
+				5C013225212D0817007EE719 /* JKPresentTranstion.m */,
 			);
 			path = Transtion;
 			sourceTree = "<group>";
@@ -199,8 +199,8 @@
 		5C01322A212D0817007EE719 /* JKSexPicker */ = {
 			isa = PBXGroup;
 			children = (
-				5C01322B212D0817007EE719 /* JKSexPickerController.m */,
 				5C01322C212D0817007EE719 /* JKSexPickerController.h */,
+				5C01322B212D0817007EE719 /* JKSexPickerController.m */,
 			);
 			path = JKSexPicker;
 			sourceTree = "<group>";
@@ -209,10 +209,10 @@
 			isa = PBXGroup;
 			children = (
 				5C01322E212D0817007EE719 /* JKAddressManager.h */,
-				5C01322F212D0817007EE719 /* JKAddressPickerController.h */,
-				5C013230212D0817007EE719 /* Address.plist */,
 				5C013231212D0817007EE719 /* JKAddressManager.m */,
+				5C01322F212D0817007EE719 /* JKAddressPickerController.h */,
 				5C013232212D0817007EE719 /* JKAddressPickerController.m */,
+				5C013230212D0817007EE719 /* Address.plist */,
 			);
 			path = JKAddressPicker;
 			sourceTree = "<group>";
@@ -220,11 +220,11 @@
 		5C013234212D0817007EE719 /* JKBasics */ = {
 			isa = PBXGroup;
 			children = (
-				5C013235212D0817007EE719 /* JKBackGroundView.h */,
 				5C013236212D0817007EE719 /* JKTranstionControllProtocol.h */,
-				5C013237212D0817007EE719 /* JKTranstionController.m */,
+				5C013235212D0817007EE719 /* JKBackGroundView.h */,
 				5C013238212D0817007EE719 /* JKBackGroundView.m */,
 				5C013239212D0817007EE719 /* JKTranstionController.h */,
+				5C013237212D0817007EE719 /* JKTranstionController.m */,
 			);
 			path = JKBasics;
 			sourceTree = "<group>";
@@ -302,7 +302,7 @@
 		5C0131E6212D07E0007EE719 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Milton;
 				TargetAttributes = {
 					5C0131ED212D07E0007EE719 = {
@@ -454,6 +454,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -461,6 +462,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -509,6 +511,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -516,6 +519,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
