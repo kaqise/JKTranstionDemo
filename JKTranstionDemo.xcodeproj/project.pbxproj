@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C0131F3212D07E0007EE719 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0131F2212D07E0007EE719 /* AppDelegate.m */; };
+		5C0131F6212D07E0007EE719 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0131F5212D07E0007EE719 /* ViewController.m */; };
+		5C0131F9212D07E0007EE719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0131F7212D07E0007EE719 /* Main.storyboard */; };
+		5C0131FB212D07E0007EE719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0131FA212D07E0007EE719 /* Assets.xcassets */; };
+		5C0131FE212D07E0007EE719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0131FC212D07E0007EE719 /* LaunchScreen.storyboard */; };
+		5C013201212D07E0007EE719 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C013200212D07E0007EE719 /* main.m */; };
+		5C01320B212D07E0007EE719 /* JKTranstionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C01320A212D07E0007EE719 /* JKTranstionDemoTests.m */; };
+		5C013216212D07E1007EE719 /* JKTranstionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C013215212D07E1007EE719 /* JKTranstionDemoUITests.m */; };
+		5C01323F212D0817007EE719 /* JKPresentTranstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C013225212D0817007EE719 /* JKPresentTranstion.m */; };
+		5C013240212D0817007EE719 /* JKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C013228212D0817007EE719 /* JKAlertViewController.m */; };
+		5C013241212D0817007EE719 /* JKSexPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C01322B212D0817007EE719 /* JKSexPickerController.m */; };
+		5C013242212D0817007EE719 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C013230212D0817007EE719 /* Address.plist */; };
+		5C013243212D0817007EE719 /* JKAddressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C013231212D0817007EE719 /* JKAddressManager.m */; };
+		5C013244212D0817007EE719 /* JKAddressPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C013232212D0817007EE719 /* JKAddressPickerController.m */; };
+		5C013245212D0817007EE719 /* JKTranstionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C013237212D0817007EE719 /* JKTranstionController.m */; };
+		5C013246212D0817007EE719 /* JKBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C013238212D0817007EE719 /* JKBackGroundView.m */; };
+		5C013247212D0817007EE719 /* JKDatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C01323C212D0817007EE719 /* JKDatePickerController.m */; };
+		5C013248212D0817007EE719 /* JKDateMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C01323D212D0817007EE719 /* JKDateMananger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C013207212D07E0007EE719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C0131E6212D07E0007EE719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C0131ED212D07E0007EE719;
+			remoteInfo = JKTranstionDemo;
+		};
+		5C013212212D07E1007EE719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C0131E6212D07E0007EE719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C0131ED212D07E0007EE719;
+			remoteInfo = JKTranstionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C0131EE212D07E0007EE719 /* JKTranstionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKTranstionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0131F1212D07E0007EE719 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C0131F2212D07E0007EE719 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C0131F4212D07E0007EE719 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C0131F5212D07E0007EE719 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C0131F8212D07E0007EE719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C0131FA212D07E0007EE719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C0131FD212D07E0007EE719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C0131FF212D07E0007EE719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C013200212D07E0007EE719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C013206212D07E0007EE719 /* JKTranstionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKTranstionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C01320A212D07E0007EE719 /* JKTranstionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTranstionDemoTests.m; sourceTree = "<group>"; };
+		5C01320C212D07E0007EE719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C013211212D07E1007EE719 /* JKTranstionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKTranstionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C013215212D07E1007EE719 /* JKTranstionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTranstionDemoUITests.m; sourceTree = "<group>"; };
+		5C013217212D07E1007EE719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C013225212D0817007EE719 /* JKPresentTranstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPresentTranstion.m; sourceTree = "<group>"; };
+		5C013226212D0817007EE719 /* JKPresentTranstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPresentTranstion.h; sourceTree = "<group>"; };
+		5C013228212D0817007EE719 /* JKAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAlertViewController.m; sourceTree = "<group>"; };
+		5C013229212D0817007EE719 /* JKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAlertViewController.h; sourceTree = "<group>"; };
+		5C01322B212D0817007EE719 /* JKSexPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSexPickerController.m; sourceTree = "<group>"; };
+		5C01322C212D0817007EE719 /* JKSexPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSexPickerController.h; sourceTree = "<group>"; };
+		5C01322E212D0817007EE719 /* JKAddressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAddressManager.h; sourceTree = "<group>"; };
+		5C01322F212D0817007EE719 /* JKAddressPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAddressPickerController.h; sourceTree = "<group>"; };
+		5C013230212D0817007EE719 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+		5C013231212D0817007EE719 /* JKAddressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAddressManager.m; sourceTree = "<group>"; };
+		5C013232212D0817007EE719 /* JKAddressPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAddressPickerController.m; sourceTree = "<group>"; };
+		5C013233212D0817007EE719 /* JKTranstionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTranstionHeader.h; sourceTree = "<group>"; };
+		5C013235212D0817007EE719 /* JKBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBackGroundView.h; sourceTree = "<group>"; };
+		5C013236212D0817007EE719 /* JKTranstionControllProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTranstionControllProtocol.h; sourceTree = "<group>"; };
+		5C013237212D0817007EE719 /* JKTranstionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTranstionController.m; sourceTree = "<group>"; };
+		5C013238212D0817007EE719 /* JKBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBackGroundView.m; sourceTree = "<group>"; };
+		5C013239212D0817007EE719 /* JKTranstionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTranstionController.h; sourceTree = "<group>"; };
+		5C01323B212D0817007EE719 /* JKDateMananger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDateMananger.h; sourceTree = "<group>"; };
+		5C01323C212D0817007EE719 /* JKDatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDatePickerController.m; sourceTree = "<group>"; };
+		5C01323D212D0817007EE719 /* JKDateMananger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDateMananger.m; sourceTree = "<group>"; };
+		5C01323E212D0817007EE719 /* JKDatePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDatePickerController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C0131EB212D07E0007EE719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C013203212D07E0007EE719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C01320E212D07E1007EE719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C0131E5212D07E0007EE719 = {
+			isa = PBXGroup;
+			children = (
+				5C013223212D0817007EE719 /* JKTranstion */,
+				5C0131F0212D07E0007EE719 /* JKTranstionDemo */,
+				5C013209212D07E0007EE719 /* JKTranstionDemoTests */,
+				5C013214212D07E1007EE719 /* JKTranstionDemoUITests */,
+				5C0131EF212D07E0007EE719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C0131EF212D07E0007EE719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C0131EE212D07E0007EE719 /* JKTranstionDemo.app */,
+				5C013206212D07E0007EE719 /* JKTranstionDemoTests.xctest */,
+				5C013211212D07E1007EE719 /* JKTranstionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C0131F0212D07E0007EE719 /* JKTranstionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5C0131F1212D07E0007EE719 /* AppDelegate.h */,
+				5C0131F2212D07E0007EE719 /* AppDelegate.m */,
+				5C0131F4212D07E0007EE719 /* ViewController.h */,
+				5C0131F5212D07E0007EE719 /* ViewController.m */,
+				5C0131F7212D07E0007EE719 /* Main.storyboard */,
+				5C0131FA212D07E0007EE719 /* Assets.xcassets */,
+				5C0131FC212D07E0007EE719 /* LaunchScreen.storyboard */,
+				5C0131FF212D07E0007EE719 /* Info.plist */,
+				5C013200212D07E0007EE719 /* main.m */,
+			);
+			path = JKTranstionDemo;
+			sourceTree = "<group>";
+		};
+		5C013209212D07E0007EE719 /* JKTranstionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C01320A212D07E0007EE719 /* JKTranstionDemoTests.m */,
+				5C01320C212D07E0007EE719 /* Info.plist */,
+			);
+			path = JKTranstionDemoTests;
+			sourceTree = "<group>";
+		};
+		5C013214212D07E1007EE719 /* JKTranstionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C013215212D07E1007EE719 /* JKTranstionDemoUITests.m */,
+				5C013217212D07E1007EE719 /* Info.plist */,
+			);
+			path = JKTranstionDemoUITests;
+			sourceTree = "<group>";
+		};
+		5C013223212D0817007EE719 /* JKTranstion */ = {
+			isa = PBXGroup;
+			children = (
+				5C013233212D0817007EE719 /* JKTranstionHeader.h */,
+				5C013224212D0817007EE719 /* Transtion */,
+				5C013227212D0817007EE719 /* JKAlertViewController */,
+				5C01322A212D0817007EE719 /* JKSexPicker */,
+				5C01322D212D0817007EE719 /* JKAddressPicker */,
+				5C013234212D0817007EE719 /* JKBasics */,
+				5C01323A212D0817007EE719 /* JKDatePicker */,
+			);
+			path = JKTranstion;
+			sourceTree = "<group>";
+		};
+		5C013224212D0817007EE719 /* Transtion */ = {
+			isa = PBXGroup;
+			children = (
+				5C013225212D0817007EE719 /* JKPresentTranstion.m */,
+				5C013226212D0817007EE719 /* JKPresentTranstion.h */,
+			);
+			path = Transtion;
+			sourceTree = "<group>";
+		};
+		5C013227212D0817007EE719 /* JKAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5C013228212D0817007EE719 /* JKAlertViewController.m */,
+				5C013229212D0817007EE719 /* JKAlertViewController.h */,
+			);
+			path = JKAlertViewController;
+			sourceTree = "<group>";
+		};
+		5C01322A212D0817007EE719 /* JKSexPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5C01322B212D0817007EE719 /* JKSexPickerController.m */,
+				5C01322C212D0817007EE719 /* JKSexPickerController.h */,
+			);
+			path = JKSexPicker;
+			sourceTree = "<group>";
+		};
+		5C01322D212D0817007EE719 /* JKAddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5C01322E212D0817007EE719 /* JKAddressManager.h */,
+				5C01322F212D0817007EE719 /* JKAddressPickerController.h */,
+				5C013230212D0817007EE719 /* Address.plist */,
+				5C013231212D0817007EE719 /* JKAddressManager.m */,
+				5C013232212D0817007EE719 /* JKAddressPickerController.m */,
+			);
+			path = JKAddressPicker;
+			sourceTree = "<group>";
+		};
+		5C013234212D0817007EE719 /* JKBasics */ = {
+			isa = PBXGroup;
+			children = (
+				5C013235212D0817007EE719 /* JKBackGroundView.h */,
+				5C013236212D0817007EE719 /* JKTranstionControllProtocol.h */,
+				5C013237212D0817007EE719 /* JKTranstionController.m */,
+				5C013238212D0817007EE719 /* JKBackGroundView.m */,
+				5C013239212D0817007EE719 /* JKTranstionController.h */,
+			);
+			path = JKBasics;
+			sourceTree = "<group>";
+		};
+		5C01323A212D0817007EE719 /* JKDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5C01323B212D0817007EE719 /* JKDateMananger.h */,
+				5C01323C212D0817007EE719 /* JKDatePickerController.m */,
+				5C01323D212D0817007EE719 /* JKDateMananger.m */,
+				5C01323E212D0817007EE719 /* JKDatePickerController.h */,
+			);
+			path = JKDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C0131ED212D07E0007EE719 /* JKTranstionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C01321A212D07E1007EE719 /* Build configuration list for PBXNativeTarget "JKTranstionDemo" */;
+			buildPhases = (
+				5C0131EA212D07E0007EE719 /* Sources */,
+				5C0131EB212D07E0007EE719 /* Frameworks */,
+				5C0131EC212D07E0007EE719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKTranstionDemo;
+			productName = JKTranstionDemo;
+			productReference = 5C0131EE212D07E0007EE719 /* JKTranstionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C013205212D07E0007EE719 /* JKTranstionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C01321D212D07E1007EE719 /* Build configuration list for PBXNativeTarget "JKTranstionDemoTests" */;
+			buildPhases = (
+				5C013202212D07E0007EE719 /* Sources */,
+				5C013203212D07E0007EE719 /* Frameworks */,
+				5C013204212D07E0007EE719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C013208212D07E0007EE719 /* PBXTargetDependency */,
+			);
+			name = JKTranstionDemoTests;
+			productName = JKTranstionDemoTests;
+			productReference = 5C013206212D07E0007EE719 /* JKTranstionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C013210212D07E1007EE719 /* JKTranstionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C013220212D07E1007EE719 /* Build configuration list for PBXNativeTarget "JKTranstionDemoUITests" */;
+			buildPhases = (
+				5C01320D212D07E1007EE719 /* Sources */,
+				5C01320E212D07E1007EE719 /* Frameworks */,
+				5C01320F212D07E1007EE719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C013213212D07E1007EE719 /* PBXTargetDependency */,
+			);
+			name = JKTranstionDemoUITests;
+			productName = JKTranstionDemoUITests;
+			productReference = 5C013211212D07E1007EE719 /* JKTranstionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C0131E6212D07E0007EE719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Milton;
+				TargetAttributes = {
+					5C0131ED212D07E0007EE719 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5C013205212D07E0007EE719 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C0131ED212D07E0007EE719;
+					};
+					5C013210212D07E1007EE719 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C0131ED212D07E0007EE719;
+					};
+				};
+			};
+			buildConfigurationList = 5C0131E9212D07E0007EE719 /* Build configuration list for PBXProject "JKTranstionDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C0131E5212D07E0007EE719;
+			productRefGroup = 5C0131EF212D07E0007EE719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C0131ED212D07E0007EE719 /* JKTranstionDemo */,
+				5C013205212D07E0007EE719 /* JKTranstionDemoTests */,
+				5C013210212D07E1007EE719 /* JKTranstionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C0131EC212D07E0007EE719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0131FE212D07E0007EE719 /* LaunchScreen.storyboard in Resources */,
+				5C013242212D0817007EE719 /* Address.plist in Resources */,
+				5C0131FB212D07E0007EE719 /* Assets.xcassets in Resources */,
+				5C0131F9212D07E0007EE719 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C013204212D07E0007EE719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C01320F212D07E1007EE719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C0131EA212D07E0007EE719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C013247212D0817007EE719 /* JKDatePickerController.m in Sources */,
+				5C0131F6212D07E0007EE719 /* ViewController.m in Sources */,
+				5C013241212D0817007EE719 /* JKSexPickerController.m in Sources */,
+				5C013245212D0817007EE719 /* JKTranstionController.m in Sources */,
+				5C013240212D0817007EE719 /* JKAlertViewController.m in Sources */,
+				5C013244212D0817007EE719 /* JKAddressPickerController.m in Sources */,
+				5C013201212D07E0007EE719 /* main.m in Sources */,
+				5C013243212D0817007EE719 /* JKAddressManager.m in Sources */,
+				5C0131F3212D07E0007EE719 /* AppDelegate.m in Sources */,
+				5C01323F212D0817007EE719 /* JKPresentTranstion.m in Sources */,
+				5C013246212D0817007EE719 /* JKBackGroundView.m in Sources */,
+				5C013248212D0817007EE719 /* JKDateMananger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C013202212D07E0007EE719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C01320B212D07E0007EE719 /* JKTranstionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C01320D212D07E1007EE719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C013216212D07E1007EE719 /* JKTranstionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C013208212D07E0007EE719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C0131ED212D07E0007EE719 /* JKTranstionDemo */;
+			targetProxy = 5C013207212D07E0007EE719 /* PBXContainerItemProxy */;
+		};
+		5C013213212D07E1007EE719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C0131ED212D07E0007EE719 /* JKTranstionDemo */;
+			targetProxy = 5C013212212D07E1007EE719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C0131F7212D07E0007EE719 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C0131F8212D07E0007EE719 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C0131FC212D07E0007EE719 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C0131FD212D07E0007EE719 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C013218212D07E1007EE719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C013219212D07E1007EE719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C01321B212D07E1007EE719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKTranstionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hllgoods.JKTranstionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C01321C212D07E1007EE719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKTranstionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hllgoods.JKTranstionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C01321E212D07E1007EE719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKTranstionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hllgoods.JKTranstionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKTranstionDemo.app/JKTranstionDemo";
+			};
+			name = Debug;
+		};
+		5C01321F212D07E1007EE719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKTranstionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hllgoods.JKTranstionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKTranstionDemo.app/JKTranstionDemo";
+			};
+			name = Release;
+		};
+		5C013221212D07E1007EE719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKTranstionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hllgoods.JKTranstionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKTranstionDemo;
+			};
+			name = Debug;
+		};
+		5C013222212D07E1007EE719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKTranstionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hllgoods.JKTranstionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKTranstionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C0131E9212D07E0007EE719 /* Build configuration list for PBXProject "JKTranstionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C013218212D07E1007EE719 /* Debug */,
+				5C013219212D07E1007EE719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C01321A212D07E1007EE719 /* Build configuration list for PBXNativeTarget "JKTranstionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C01321B212D07E1007EE719 /* Debug */,
+				5C01321C212D07E1007EE719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C01321D212D07E1007EE719 /* Build configuration list for PBXNativeTarget "JKTranstionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C01321E212D07E1007EE719 /* Debug */,
+				5C01321F212D07E1007EE719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C013220212D07E1007EE719 /* Build configuration list for PBXNativeTarget "JKTranstionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C013221212D07E1007EE719 /* Debug */,
+				5C013222212D07E1007EE719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C0131E6212D07E0007EE719 /* Project object */;
+}
